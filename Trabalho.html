@@ -1,111 +1,188 @@
 <!DOCTYPE html>
 <html lang="PT-BR">
-    <head>
-        <title></title>
-        <link rel="stylesheet" type="text/css" href="">
-        <script src="jquery.js"></script>
-        <script>
-           
-        </script>
-        <style>
-            .site{
-                width:100%;
-                height:100%;
-                background-color:red;
-            }
-            .header{
-                width:inherit;
-                height:100px;
-                background-color:blue;
-            }
-            .topo1{
-                width:66.66%;
-                height: 100px;
-                background-color: rgb(154, 248, 5);
-            }
-            .topo2{
-                width:50%;
-                height: 100px;
-                background-color: rgb(102, 0, 255);
-            }
-            .esquerda1{
-                width:228px;
-                height: 66.66%;
-                background-color: rgb(0, 255, 145);
-            }
-            .esquerda2{
-                width:228px;
-                height: 50%;
-                background-color: rgb(255, 0, 195);
-            }
-            .direita1{
-                width:228px;
-                height: 66.66%;
-                background-color: rgb(255, 149, 0);
-            }
-            .direita2{
-                width:228px;
-                height: 50%;
-                background-color: rgb(0, 229, 255);
-            }
-            .main{
-                width:inherit;
-                height:550px;
-                background-color:yellow;
-            }
-            .footer{
-                width:inherit;
-                height:100px;
-                background-color:green;
-            }
-            .esquerda{
-                width:15%;
-                height:inherit;
-                background-color:pink;
-                display:inline-block;
-                float:right;
-            }
-            .centro{
-                width:70%;
-                height:inherit;
-                background-color:grey;
-                display:inline-block;
-                float:right;
-            }
-            .direita{
-                width:15%;
-                height:inherit;
-                background-color:red;
-                display:inline-block;
-                float:right;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="site">
-            <div class="header">
 
-                 </div>
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="">
+    <script src="jquery.js"></script>
+    <script>
+
+    </script>
+    <style>
+        .site {
+            width: 100%;
+            height: 100%;
+            background-color: red;
+        }
+
+        .header {
+            width: inherit;
+            height: 100px;
+            background-color: blue;
+        }
+
+        .cima1 {
+            width: 75%;
+            height: 100px;
+            background-color: rgb(102, 0, 255);
+        }
+
+        .cima2 {
+            width: 66.66%;
+            height: 100px;
+            background-color: rgb(255, 234, 0);
+        }
+
+        .cima3 {
+            width: 50%;
+            height: 100px;
+            background-color: rgb(255, 0, 0);
+        }
+
+        .topo1 {
+            width: 66.66%;
+            height: 100px;
+            background-color: rgb(154, 248, 5);
+        }
+
+        .topo2 {
+            width: 50%;
+            height: 100px;
+            background-color: rgb(102, 0, 255);
+        }
+
+        .esquerda1 {
+            width: 228px;
+            height: 66.66%;
+            background-color: rgb(0, 255, 145);
+        }
+
+        .esquerda2 {
+            width: 228px;
+            height: 50%;
+            background-color: rgb(255, 0, 195);
+        }
+
+        .direita1 {
+            width: 228px;
+            height: 66.66%;
+            background-color: rgb(255, 149, 0);
+        }
+
+        .direita2 {
+            width: 228px;
+            height: 50%;
+            background-color: rgb(0, 229, 255);
+        }
+
+        .main {
+            width: inherit;
+            height: 550px;
+            background-color: yellow;
+        }
+
+        .footer {
+            width: inherit;
+            height: 100px;
+            background-color: green;
+        }
+
+        .esquerda {
+            width: 15%;
+            height: inherit;
+            background-color: pink;
+            display: inline-block;
+            float: right;
+        }
+
+        .centro1 {
+            width: 70%;
+            height: inherit;
+            background-color: rgb(22, 227, 19);
+            display: inline-block;
+            float: right;
+        }
+
+        .centro2 {
+            width: 100%;
+            height: 275px;
+            background-color: grey;
+            display: inline-block;
+            float: right;
+        }
+
+        .centro3 {
+            width: 100%;
+            height: 275px;
+            background-color: rgb(0, 204, 255);
+            display: inline-block;
+            float: right;
+        }
+
+        .centrocima {
+            width: 50%;
+            height: 275px;
+            background-color: rgb(0, 255, 221);
+        }
+
+        .centrobaixo1 {
+            width: 66.66%;
+            height: 275px;
+            background-color: rgb(255, 0, 136);
+        }
+
+        .centrobaixo2 {
+            width: 50%;
+            height: 275px;
+            background-color: rgb(251, 0, 255);
+        }
+
+        .direita {
+            width: 15%;
+            height: inherit;
+            background-color: red;
+            display: inline-block;
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="site">
+        <div class="header">
+            <div class="cima1">
+                <div class="cima2">
+                    <div class="cima3">
+                    </div>
+                </div>
             </div>
             <div class="main">
                 <div class="esquerda">
-                     <div class="esquerda1">
+                    <div class="esquerda1">
                         <div class="esquerda2"></div>
-                     </div>
+                    </div>
                 </div>
-                <div class="centro">
-
+                <div class="centro1">
+                    <div class="centro3">
+                        <div class="centrocima"></div>
+                    </div>
+                    <div class="centro2">
+                        <div class="centrobaixo1">
+                            <div class="centrobaixo2"></div>
+                        </div>
+                    </div>
                 </div>
                 <div class="direita">
                     <div class="direita1">
                         <div class="direita2"></div>
-                        </div>
+                    </div>
                 </div>
             </div>
             <div class="footer">
                 <div class="topo1">
                     <div class="topo2"></div>
+                </div>
             </div>
-        </div>
-    </body>
+</body>
+
 </html>
