@@ -7,33 +7,37 @@
     <link rel="stylesheet" type="text/css" href="">
     <script src="jquery.js"></script>
     <script>
-        $ (document) . ready (function(){});
-         btn_um.onclick = function (){$("#campo").val("1");}
-         btn_dois.onclick = function (){$("#campo").val("2");}
-         btn_tres.onclick = function (){$("#campo").val("3");}
-         btn_adicao.onclick = function (){$("#campo").val("+");}
-         btn_porcentagem.onclick = function (){$("#campo").val("%");}
+        $(document).ready(function () {
 
-         btn_quatro.onclick = function (){$("#campo").val("4");}
-         btn_cinco.onclick = function (){$("#campo").val("5");}
-         btn_seis.onclick = function (){$("#campo").val("6");}
-         btn_subtracao.onclick = function (){$("#campo").val("-");}
-         btn_potencia.onclick = function (){$("#campo").val("^");}
+            let operacao, soma, um, dois, tres, quatro, cinco, seis, sete, oito, nove, zero, soma1, subtracao, divisao, multiplicacao, potencia, porcentagem;
 
-         btn_sete.onclick = function (){$("#campo").val("7");}
-         btn_oito.onclick = function (){$("#campo").val("8");}
-         btn_nove.onclick = function (){$("#campo").val("9");}
-         btn_divisao.onclick = function (){$("#campo").val("/");}
-         btn_pa.onclick = function (){$("#campo").val("(");}
+            btn_um.onclick = function () { $("#campo").val("1"); um = 1; }
+            btn_dois.onclick = function () { $("#campo").val("2"); dois = 2; }
+            btn_tres.onclick = function () { $("#campo").val("3"); tres = 3; }
+            btn_adicao.onclick = function () { $("#campo").val("+"); }
+            btn_porcentagem.onclick = function () { $("#campo").val("%"); }
 
-         btn_ponto.onclick = function (){$("#campo").val(".");}
-         btn_zero.onclick = function (){$("#campo").val("0");}
-         btn_virgula.onclick = function (){$("#campo").val(",");}
-         btn_vezes.onclick = function (){$("#campo").val("*");}
-         btn_pf.onclick = function (){$("#campo").val(")");}
+            btn_quatro.onclick = function () { $("#campo").val("4"); }
+            btn_cinco.onclick = function () { $("#campo").val("5"); }
+            btn_seis.onclick = function () { $("#campo").val("6"); }
+            btn_subtracao.onclick = function () { $("#campo").val("-"); }
+            btn_potencia.onclick = function () { $("#campo").val("^"); }
 
-         btn_igual.onclick = function (){$("#campo").val("=");}
-         btn_reinicia.onclick = function (){$("#campo").val("1");}
+            btn_sete.onclick = function () { $("#campo").val("7"); }
+            btn_oito.onclick = function () { $("#campo").val("8"); }
+            btn_nove.onclick = function () { $("#campo").val("9"); }
+            btn_divisao.onclick = function () { $("#campo").val("/"); }
+            btn_pa.onclick = function () { $("#campo").val("("); }
+
+            btn_ponto.onclick = function () { $("#campo").val("."); }
+            btn_zero.onclick = function () { $("#campo").val("0"); }
+            btn_virgula.onclick = function () { $("#campo").val(","); }
+            btn_vezes.onclick = function () { $("#campo").val("*"); }
+            btn_pf.onclick = function () { $("#campo").val(")"); }
+
+            btn_igual.onclick = function () { $("#campo").val("="); }
+            btn_reinicia.onclick = function () { $("#campo").val("1"); }
+        });
     </script>
     <script>
         $(document).ready(function () {
